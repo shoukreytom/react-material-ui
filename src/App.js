@@ -4,6 +4,8 @@ import Typography from './components/Typography'
 import Buttons from './components/Buttons'
 import TextFields from './components/TextFields'
 import RadioButton from './components/RadioButton'
+import Checkboxes from './components/Checkboxes'
+import Appbars from './components/Appbars'
 
 
 function App() {
@@ -24,6 +26,12 @@ function App() {
         </Route>
         <Route path="/radio">
           <RadioButton />
+        </Route>
+        <Route path="/check_boxes">
+          <Checkboxes />
+        </Route>
+        <Route path="/appbars">
+          <Appbars />
         </Route>
       </Switch>
     </Router>
